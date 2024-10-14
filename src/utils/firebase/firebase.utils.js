@@ -2,14 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect } from "firebase/auth";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
-const firebaseConfig = {
-    apiKey: "AIzaSyBwCe6_qwtbHRnbPWeIqlY-OmcftqbFisA",
-    authDomain: "crown-clothing-db-2aa82.firebaseapp.com",
-    projectId: "crown-clothing-db-2aa82",
-    storageBucket: "crown-clothing-db-2aa82.appspot.com",
-    messagingSenderId: "822893518542",
-    appId: "1:822893518542:web:9204111341e3a7abb67a9f"
-};
+
 
 const firebaseApp = initializeApp(firebaseConfig);
 
